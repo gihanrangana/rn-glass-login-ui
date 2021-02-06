@@ -1,0 +1,22 @@
+$primary: #AAFFCC;
+$alt: #e6b251;
+
+$dark0: black;
+
+$normal: 15;
+
+$fontRegular: "MontserratRegular";
+$fontLight: "MontserratLight";
+$fontSemiBold: "MontserratSemiBold";
+$fontBold: "MontserratBold";
+
+$poppinsRegular: "PoppinsRegular";
+$poppinsLight: "PoppinsLight";
+$poppinsSemiBold: "PoppinsSemiBold";
+$poppinsBold: "PoppinsBold";
+
+@mixin headingText() {
+    font-family: $fontRegular;
+    font-size: $normal;
+    color: $dark0;
+}

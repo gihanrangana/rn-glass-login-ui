@@ -1,0 +1,31 @@
+.loginScreen {
+    flex: 1;
+}
+
+.bg {
+    flex: 1;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.form {
+    background: rgba(0, 0,0, 0.5);
+    width: 100%;
+    padding: 20px 50px;
+    padding-top: 50px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border-color: rgba(170, 140, 140, 0.493);
+    border-width: 1px;
+    border-style: solid;
+    border-bottom-color: transparent;
+    border-bottom-width: 0;
+    overflow: hidden;
+}
+
+.heading{
+    font-family: $fontSemiBold;
+    font-size: 32px;
+    color: #fff;
+    margin-bottom: 50%;
+}

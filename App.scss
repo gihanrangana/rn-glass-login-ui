@@ -1,0 +1,25 @@
+.container {
+	flex: 1;
+	justify-content: center;
+	align-items: center;
+	background-color: $alt;
+	padding: 16px;
+}
+
+.containerAlt {
+	@extend .container;
+	background-color: $primary;
+}
+
+.text {
+	font-size: 30px;
+	@include headingText();
+	font-size: 16px;
+	color: $dark0;
+	padding: 0 0 20px 0;
+}
+
+.textAlt {
+	font-family: $fontBold;
+	padding: 0 0 20px 0;
+}
